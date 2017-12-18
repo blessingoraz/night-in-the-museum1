@@ -9,8 +9,14 @@ This project is part of [Udacity](https://www.udacity.com "Udacity - Be in deman
 
 ### Here are some of the images from the scene.
 
+![alt text](https://github.com/blessingoraz/night-in-the-museum1/blob/master/Screenshot_20171218-130206.png?raw=true)
+
 ![alt text](https://github.com/blessingoraz/night-in-the-museum1/blob/master/Screenshot_20171218-130041.png?raw=true)
 
+![alt text](https://github.com/blessingoraz/night-in-the-museum1/blob/master/Screenshot_20171218-130219.png?raw=true)
 
+![alt text](https://github.com/blessingoraz/night-in-the-museum1/blob/master/Screenshot_20171218-130226.png?raw=true)
 
+![alt text](https://github.com/blessingoraz/night-in-the-museum1/blob/master/Screenshot_20171218-130242.png?raw=true)
 
+![alt text](https://github.com/blessingoraz/night-in-the-museum1/blob/master/Screenshot_20171218-130305.png?raw=true)
