@@ -9,7 +9,7 @@ This project is part of [Udacity](https://www.udacity.com "Udacity - Be in deman
 
 ### Here are some of the images from the scene.
 
-![alt text](night-in-the-museum1/Screenshot_20171218-130041.png)
+![alt text](https://github.com/blessingoraz/night-in-the-museum1/blob/master/Screenshot_20171218-130041.png?raw=true)
 
 
 
