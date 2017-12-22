@@ -222,8 +222,8 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: userKeyStore.keystore
-  AndroidKeyaliasName: nightinmuseumkey
+  AndroidKeystoreName: helloKeyStore.keystore
+  AndroidKeyaliasName: hello
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   androidEnableBanner: 1
