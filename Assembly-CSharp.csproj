@@ -161,6 +161,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
      <Compile Include="Assets\Laterns and candles\scripts\CameraFacing.cs" />
      <Compile Include="Assets\Laterns and candles\scripts\ExtendedFlycam.cs" />
+     <Compile Include="Assets\Scripts\CollisionDetector.cs" />
      <Compile Include="Assets\Scripts\GameLogic.cs" />
      <Compile Include="Assets\WaypointPrefabs\Scripts\Waypoint.cs" />
      <None Include="Assets\Laterns and candles\Shaders\GlassStainedBumpDistort.shader" />
@@ -204,7 +205,7 @@
  <HintPath>/Volumes/TOSHIBA EXT/Applications/Unity2017/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/blessingorazulume/Downloads/a-night-in-the-museum2/a-night-in-the-museum2/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/blessingorazulume/Downloads/a-night-in-the-museum2 3/a-night-in-the-museum2/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

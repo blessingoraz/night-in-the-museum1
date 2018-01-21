@@ -7,7 +7,9 @@ public class GameLogic : MonoBehaviour
 	public GameObject eventSystem;
 	public GameObject startUI, restartUI;
 	public GameObject startPoint, playPoint, restartPoint, point1, point2, point3;
-
+	private Vector3 startUIPosition;
+	private Vector3 close = new Vector3(240, 32 ,-398);
+	private bool isDoorClosed = false;
 	void Start()
 	{
 		// Update 'player' to be the camera's parent gameobject, i.e. 'GvrEditorEmulator' instead of the camera itself.
@@ -16,12 +18,14 @@ public class GameLogic : MonoBehaviour
 
 		// Move the 'player' to the 'startPoint' position.
 		player.transform.position = startPoint.transform.position;
+		startUIPosition = startUI.transform.position;
 
 	}
 
 	// Begin the museum showcase.
 	public void StartMuseum()
 	{
+		isDoorClosed = true;
 		// Move the player to the play position.
 		iTween.MoveTo(player,
 			iTween.Hash(
@@ -30,6 +34,13 @@ public class GameLogic : MonoBehaviour
 				"easetype", "linear"
 			)
 		);
+	}
+
+	void Update() {
+		
+		if (isDoorClosed) {
+			startUI.transform.position = Vector3.Lerp (startUI.transform.position, close, Time.deltaTime * 2);
+		}
 	}
 
 	// Play narrator
@@ -80,7 +91,7 @@ public class GameLogic : MonoBehaviour
 		// Move the player to the restart position.
 		iTween.MoveTo(player,
 			iTween.Hash(
-				"position", startPoint.transform.position,
+				"position", playPoint.transform.position,
 				"time", 2,
 				"easetype", "linear"
 			)

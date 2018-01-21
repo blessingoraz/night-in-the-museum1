@@ -96,7 +96,7 @@
  <HintPath>/Volumes/TOSHIBA EXT/Applications/Unity2017/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/blessingorazulume/Downloads/a-night-in-the-museum2/a-night-in-the-museum2/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/blessingorazulume/Downloads/a-night-in-the-museum2 3/a-night-in-the-museum2/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
